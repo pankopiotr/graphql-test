@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    build:
+      args:
+        BUNDLER_OPTS:
+        RAILS_ENVIRONMENT: development
